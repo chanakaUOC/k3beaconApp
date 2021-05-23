@@ -1,0 +1,72 @@
+.ig-table-container table td,th{ 
+
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    
+    }
+
+
+
+    .container table td{
+        padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+    }
+
+    input[type='text']{
+
+        border: 1px solid steelblue;
+    }
+
+    .css_dash_desc{
+
+font-size: 2rem;
+padding:10px;
+border-bottom: 5px solid #2E86C1;
+width: 20rem;
+    }
+
+    .css_dash_count{
+        text-align: center;
+width: 85px;
+        font-size: 2rem;
+        padding-left: 12px;
+        padding-right: 12px;
+        border-radius: 50%;
+        background: #BADA55;
+        border: 4px solid #7D6608;
+        font-weight: bolder;
+
+color: black;
+    }
+    .center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+        
+    .container1{
+        max-width: 1200px;
+        background-color: black;
+    }
+
+
+    .css_message_label{
+
+        margin-left: 25%;
+        padding: 5px;
+        color: #641E16(102, 100, 100);
+        background-color: #FBEEE6;
+        border: 1px solid #641E16;
+        width:20rem;
+    }
+
+
+    .container{
+
+        padding-left: 30px;
+    }

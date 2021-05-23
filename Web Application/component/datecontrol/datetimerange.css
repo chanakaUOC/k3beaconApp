@@ -1,0 +1,29 @@
+.react-datetime-picker__inputGroup__amPm{
+display: none;
+
+}
+
+.clockClassName {
+    display: none;
+}
+
+ .react-datetime-picker__inputGroup__hour{
+
+    display: none;
+}
+
+.react-datetime-picker__inputGroup__minute{
+    display: none;
+} 
+.react-datetime-picker__inputGroup__leadingZero{
+    display: none;
+} 
+.react-datetime-picker__inputGroup__divider{
+  /*  display: none;  */
+} 
+/* react-datetime-picker__button*/
+.react-datetime-picker__clear-button{display: none;}
+
+.react-datetime-picker{
+       width: 90px;
+}
