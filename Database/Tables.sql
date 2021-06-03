@@ -73,7 +73,7 @@ CREATE TABLE "md_location" (
 
 CREATE TABLE "notification_config" (
   "notification_id" int NOT NULL AUTO_INCREMENT,
-  "notification_text" varchar(115) NOT NULL,
+  "notification_text" varchar(100) NOT NULL,
   "location_id" int NOT NULL,
   "mobile_user_id" int DEFAULT '0',
   "create_by" int DEFAULT NULL,
