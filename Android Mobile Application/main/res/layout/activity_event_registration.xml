@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EventRegistration">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="283dp"
+        tools:layout_editor_absoluteY="172dp">
+
+    <LinearLayout
+        android:id="@+id/layout_user_data"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/lblFirstName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:padding="10dp"
+            android:text="First Name" />
+
+
+
+        <TextView
+            android:id="@+id/lblLastName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:padding="10dp"
+            android:text="Lastname"
+            />
+        <TextView
+            android:id="@+id/lblUserType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:padding="10dp"
+            android:text="User Type" />
+
+
+
+
+
+
+        <TextView
+            android:id="@+id/lblId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:padding="10dp"
+            android:text="ID" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_event"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="vertical">
+        <Spinner
+            android:id="@+id/spn_event"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"/>
+        <Button
+            android:layout_marginTop="10dp"
+            android:id="@+id/btnUserRegistration"
+            android:layout_gravity="center"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:text="Event Registration"
+         />
+    </LinearLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

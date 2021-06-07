@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="api_event_list">http://api_ip_address/beacon-api/kkk/md/event-list-mb</string>
+    <string name="api_user_details">http://api_ip_address/beacon-api/mb-user-management/user-details</string>
+    <string name="api_notification_config">api_ip_address/beacon-api/poc/mobile-request-validate</string>
+    <string name="api_deparment_list">api_ip_address/beacon-api/kkk/md/department-list</string>
+    <string name="api_program_list">api_ip_address/beacon-api/kkk/md/program-list</string>
+</resources>

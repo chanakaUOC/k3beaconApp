@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Beacon Application </string>
+    <string name="MobileUniqId">MOBUNIQID</string>
+    <string name="SharedPrefNameApp">k3beaconaApp</string>
+    <string name="title_activity_usser_registration">UsserRegistration</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+    <string name="title_activity_user_registration">UserRegistration</string>
+    <string name="api_user_registration">http://134.209.101.133:3008/beacon-api/mb-user-management/register</string>
+</resources>
